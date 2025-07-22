@@ -92,7 +92,7 @@ See, in real time, how even a simple command-line tool (`ls`) interacts with the
 1. **Run a simple command with `strace`:**
    ```sh
    strace ls
-```
+   ```
 ## Observe the output:
 
 Each line shows a system call: its name, arguments, and return value.
